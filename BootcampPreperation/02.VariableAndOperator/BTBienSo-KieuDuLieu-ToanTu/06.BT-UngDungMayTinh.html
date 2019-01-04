@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ứng dụng máy tính</title>
+</head>
+<body>
+    <h2>Caculator</h2>
+    
+    The first number: <br>
+    <input type = "number" id="thefirstnumber"></input></br>
+    The second number: <br>
+    <input type = "number" id="thesecondnumber"></input></br>
+    <br>
+    <button type="button" onclick="addition()">Addition(+)</button>
+    <button type="button" onclick="subtraction()">Subtraction(-)</button>
+    <button type="button" onclick="multi()">Multiplication(x)</button>
+    <button type="button" onclick="div()">Division(/)</button>
+    </br></br>
+    Result is <span id="result"></span>
+    <script>
+        function addition() {
+            var thefirstnumber = parseInt(document.getElementById("thefirstnumber").value);
+            var thesecondnumber = parseInt(document.getElementById("thesecondnumber").value);
+            var sum = thefirstnumber + thesecondnumber;
+            document.getElementById("result").innerHTML = sum;
+        }
+
+        function subtraction() {
+            var thefirstnumber = parseInt(document.getElementById("thefirstnumber").value);
+            var thesecondnumber = parseInt(document.getElementById("thesecondnumber").value);
+            var sub = thefirstnumber - thesecondnumber;
+            document.getElementById("result").innerHTML = sub;
+        }
+        function multi() {
+            var thefirstnumber = parseInt(document.getElementById("thefirstnumber").value);
+            var thesecondnumber = parseInt(document.getElementById("thesecondnumber").value);
+            var multi = thefirstnumber * thesecondnumber;
+            document.getElementById("result").innerHTML = multi;
+        }
+
+        function div() {
+            var thefirstnumber = parseInt(document.getElementById("thefirstnumber").value);
+            var thesecondnumber = parseInt(document.getElementById("thesecondnumber").value);
+            var div = thefirstnumber / thesecondnumber;
+            document.getElementById("result").innerHTML = div;
+        }
+        
+        /* function caculate(){
+            var a = document.getElementById("thefirstnumber").value;
+            var b = document.getElementById("thesecondnumber").value;
+            var c = a + b;
+            var d = a - b;
+            var e = a * b;
+            var f = a / b;
+           if(type="button" ="Addition(+)")
+           { result = c}
+           if(type="button" onclick="Substraction(-)")
+           { result = d}
+           if(onclick="Multiplication(x)")
+           { result = e}
+           if(onclick="Division(/)")
+           { result = f}
+           
+           document.getElementById("The Result").innerHTML = result;
+        } */
+    </script>
+
+</body>
+</html>
