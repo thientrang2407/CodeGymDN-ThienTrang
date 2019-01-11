@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF - 8">
+    <title>Bài Tập Từ Điển</title>
+</head>
+
+<body>
+    Key Word: <br>
+    <input type="text" id="keywword" placeholder="Enter a word"> </br>
+    <input type="button" value="Translate To VN" onclick="translateEngToVn();"></input><br>
+    <input type="button" value="Translate To EN" onclick="translateVnToEn();"></input><br>
+    <span id="showResult"></span>
+    <script>
+        var eng = ["apple", "banana", "pear", "cherry", "dragon fruit"];
+        var vmese = ["táo", "chuối", "lê", "anh đào", "thanh long"];
+
+        function translateEngToVn() {
+
+            var dic = document.getElementById("keywword").value;
+            var resultIndex = -1;
+            for (var i = 0; i < eng.length; i++) {
+                if (dic === eng[i]) {
+                    resultIndex = i;
+                    break;
+                }
+            }
+
+            if (resultIndex >= 0) {
+                document.getElementById("showResult").innerHTML = dic + " is " + vmese[resultIndex] + " in Vietnamese.";
+            } else {
+                document.getElementById("showResult").innerHTML = dic + " is  not found in Vietnamese.";
+            }
+        }
+
+        function translateVnToEn() {
+
+            var dic = document.getElementById("keywword").value;
+            var resultIndex = -1;
+            for (var i = 0; i < vmese.length; i++) {
+                if (dic === vmese[i]) {
+                    resultIndex = i;
+                    break;
+                }
+            }
+
+            if (resultIndex >= 0) {
+                document.getElementById("showResult").innerHTML = dic + " is " + eng[resultIndex] + " in English.";
+            } else {
+                document.getElementById("showResult").innerHTML = dic + " is  not found in English.";
+            }
+        }
+    </script>
+
+</body>
+
+</html>

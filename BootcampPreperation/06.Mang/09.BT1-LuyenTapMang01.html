@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>Tìm xem có bao nhiêu số >= 10</head><br>
+</br>
+
+<body>
+    <span id="showResult"></span>
+    <button id="find" onclick="find();">Hiển Thị Những Số Lớn Hơn Hoặc Bằng 10</button></br>
+
+    <script>
+        var array_number = ["10", "15", "16", "17", "18", "19", "20", "9", "8", "7", "6"];
+        var comp = document.getElementById(parseInt("array_number"));
+
+        function find() {
+            for (var i = 0; i < array_number.length; i++) {
+                if (comp >= 10); {
+                    document.write("Các số gồm: " + comp);
+                } else {
+                    document.write("Không có số nào lớn hơn hoặc bằng 10");
+                }
+            }
+        }
+
+    </script>
+</body>
+
+</html>
