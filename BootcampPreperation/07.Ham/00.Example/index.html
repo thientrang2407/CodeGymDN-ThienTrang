@@ -1,0 +1,34 @@
+<script>
+    function changeValue(number1, number2) {
+        document.write("Number1's value in changeValue Function is " + number1 + "<br>");
+        document.write("Number2's value in changeValue Function is " + number2 + "<br>");
+        number1 = 2000;
+        number2 = 3000;
+        document.write("Number1's value in changeValue Function is " + number1 + "<br>");
+        document.write("Number2's value in changeValue Function is " + number2 + "<br>");
+        document.write("<hr>");
+    }
+
+    function changeValueArray(numbers) {
+        numbers[0] = 2000;
+        numbers[1] = 3000;
+        document.write("Number1's value in changeValue Function is " + numbers[0] + "<br>");
+        document.write("Number2's value in changeValue Function is " + numbers[1] + "<br>");
+        document.write("<hr>");
+    }
+    
+
+    var number1 = 10;
+    var number2 = 15;
+
+    changeValue(number1, number2);
+
+    document.write("Number1's value out changeValue Function is " + number1 + "<br>");
+    document.write("Number2's value out changeValue Function is " + number2 + "<br>");
+    document.write("<hr>");
+
+    var numbers = [10, 20];
+    changeValueArray(numbers);
+    document.write("Number1's value out changeValue Function is " + numbers + "<br>");
+
+</script>
