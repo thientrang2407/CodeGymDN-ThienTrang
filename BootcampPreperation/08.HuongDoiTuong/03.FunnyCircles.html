@@ -1,0 +1,21 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <meta charset="UTF - 8">
+        <title>Funny Circle</title>
+    </head>
+    <body>
+        <canvas id="myCanvas" width="1368px" height="768px" style="border:1px solid #d3d3d3;"></canvas>
+        <script>
+        function Circle(x, y, radius) {
+            this.x = x;
+            this.y = y;
+            this.radius = radius;
+        }
+        function createCirle() {
+            var ctx = document.getElementById("myCanvas").getContext("2d");
+            var circle= new Circle(500, 500, 80);
+        }
+        </script>
+    </body>
+</html>
