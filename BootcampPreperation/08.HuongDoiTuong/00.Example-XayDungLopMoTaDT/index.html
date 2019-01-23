@@ -1,0 +1,108 @@
+<script>
+    /*  Viết một lớp các đối tượng điện thoại lấy tên là Mobile, mỗi một chiếc mobile phone khi được tạo ra sẽ mang những đặc điểm sau:
+ 
+     Có một thông số về trạng thái pin tính bằng đơn vị số nguyên(tối đa 100 đv)
+     Có một vùng nhớ dùng để lưu tin nhắn đang soạn thảo.
+     Có một vùng nhớ dùng để lưu tin nhắn trong hộp thư đến.
+     Có một vùng nhớ dùng để lưu tin nhắn đã gửi.
+ 
+ 
+     Có chức năng kiểm tra trạng thái điện thoại bật hay tắt.
+     Có chức năng bật và tắt điện thoại.
+     Có chức năng xạc pin điện thoại.
+     Có chức năng soạn tin nhắn.
+     Có chức năng nhận tin nhắn từ một chiếc mobile khác.
+     Có chức năng gửi tin nhắn tới một chiếc mobile khác.
+     Có chức năng xem tin trong hộp thư đến.
+     Có chức năng xem tin đã gửi.
+     Sau mỗi lần sử dụng một chức năng, năng lượng pin sẽ giảm đi một đơn vị.
+     Các chức năng không thể hoạt động nếu điện thoại chưa bật.
+
+
+     Khởi tạo các đối tượng điện thoại và thực hiện kịch bản sau:
+ 
+     Có một chiếc điện thoại nokia và một chiếc iphone
+     Chiếc điện thoại nokia soạn tin nhắn với nội dung bất kỳ và gửi cho chiếc iphoneChiếc iphone kiểm tra inbox và hiển thị tin đó. */
+
+    function Mobile(battery, status) {
+        // 01. Có một thông số về trạng thái pin tính bằng đơn vị số nguyên(tối đa 100 đv)
+        this.battery = ((battery < 0 ? 0 : battery) > 100) ? 100 : battery;
+
+        // 02. Có một vùng nhớ dùng để lưu tin nhắn đang soạn thảo.
+        this.draftMemory = [];
+
+        // 03. Có một vùng nhớ dùng để lưu tin nhắn trong hộp thư đến.
+        this.inboxMemory = [];
+
+        // 04. Có một vùng nhớ dùng để lưu tin nhắn đã gửi.
+        this.sentMemory = [];
+
+        // 05. Trạng thái điện thoại
+        this.status = status;
+
+        // 06. Có chức năng kiểm tra trạng thái điện thoại bật hay tắt.
+        this.isOn = function () {
+            return this.status;
+        }
+
+        // 07. Có chức năng bật và tắt điện thoại.
+        this.turnOnOff = function () {
+            this.status = !this.status;
+        }
+
+        // 08. Có chức năng xạc pin điện thoại.
+        this.chargeBattery = function () {
+            if (this.battery < 100) {
+                this.battery++;
+            }
+        }
+
+        // 09. Có chức năng soạn tin nhắn.
+        this.createMessage = function (message) {
+            this.draftMemory.push(message)
+        }
+
+        // 10. Có chức năng nhận tin nhắn từ một chiếc mobile khác.
+        this.receiveMessage = function (message) {
+            this.inboxMemory.push(message);
+        }
+
+        // 11. Có chức năng gửi tin nhắn tới một chiếc mobile khác.
+        this.sendMessage = function (mobile) {
+            if (this.draftMemory.length > 0) {
+                var sendMessage = this.draftMemory.pop();
+                this.sentMemory.push(sendMessage);
+                mobile.inboxMemory.push(sendMessage);
+            }
+        }
+
+        // 12. Có chức năng xem tin trong hộp thư đến.
+        this.showMessage = function () {
+            for (var index in this.inboxMemory) {
+                alert(this.inboxMemory[index]);
+            }
+        }
+
+        // 13. Sau mỗi lần sử dụng một chức năng, năng lượng pin sẽ giảm đi một đơn vị.
+        this.reduceEnergy = function() {
+            if (this.battery > 0 ) {
+                this.battery --;
+            }
+        }
+    }
+
+
+    // 14. Khởi tạo 2 điện thoại nokia và iPhone
+    var nokia = new Mobile(99, true);
+    var iPhone = new Mobile(99, true);
+    nokia.createMessage("Hello IPhone from Nokia");
+    nokia.sendMessage(iPhone);
+
+    nokia.createMessage("Hello IPhone from Nokia 2");
+    nokia.sendMessage(iPhone);
+
+    nokia.createMessage("Hello IPhone from Nokia 3");
+    nokia.sendMessage(iPhone);
+
+    iPhone.showMessage();
+</script>

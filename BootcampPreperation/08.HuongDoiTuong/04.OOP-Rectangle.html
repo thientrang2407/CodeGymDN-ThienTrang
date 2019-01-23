@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF - 8">
+    <title>Bài tập Xây dựng lớp mô tả hình chữ nhật </title>
+</head>
+
+<body><br>
+    <input type="number" id="recHeight" placeholder="Enter the height"></input>
+    <input type="number" id="recWidth" placeholder="Enter the width"></input></br>
+    <br>
+    <input type="button" value="Information" onclick="showInfo()"></input>
+    <span id="showInfo"></span>
+    
+
+    <br>
+    <canvas id="myCanvas" width="368px" height="286px" style="border:2px solid #0000FF;"></canvas>
+    </br>
+    <script>
+
+        function showInfo() {
+            var height = parseInt(document.getElementById("recHeight").value);
+            var width = parseInt(document.getElementById("recWidth").value);
+
+            var redRec = new Rectangle(width, height, "red");
+            document.getElementById("showInfo").innerHTML = "Area and perimeter are: " + redRec.showInfo();
+            redRec.draw(20, 20);
+        }
+
+        function Rectangle(width, height, color) {
+            this.width = width;
+            this.height = height;
+            this.color = color;
+
+            this.area = function() {
+                return this.width * this.height;
+            }
+
+            this.perimeter = function() {
+                var perimeter = (this.height + this.width) * 2;
+                return perimeter;
+            }
+
+            this.showInfo = function () {
+                return "Area is " + this.area() + ". Perimeter is " + this.perimeter();
+            }
+
+            this.draw = function (x, y) {
+                var ctx = document.getElementById("myCanvas").getContext("2d");
+                ctx.beginPath();
+                ctx.strokeStyle = this.color;
+                ctx.rect(x, y, this.width, this.height);
+                ctx.stroke();
+            }
+        }
+    </script>
+
+</body>
+
+</html>

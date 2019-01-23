@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF - 8">
+    <title>Bài Tập a chia hết cho b</title>
+    Chỉ số thứ nhất: <br>
+    <input type="number" id="thefirstnumber" placeholder="Enter the number a"></input> </br>
+    Chỉ số thứ hai: <br>
+    <input type="number" id="thesecondnumber" placeholder="Enter the number b"></input> </br>
+    <br>
+    <input type="button" value="Calculate" onclick="showResult()"></input></br>
+    <span id="showResult"></span>
+
+</head>
+
+<body>
+    <script>
+        function showResult() {
+            var a = document.getElementById("thefirstnumber").value;
+            var b = document.getElementById("thesecondnumber").value;
+            if (a % b == 0) {
+                alert('Số thứ nhất chia hết cho số thứ hai')
+            } else {
+                alert('số thứ nhất không chia hết cho số thứ hai')
+            }
+        }
+
+    </script>
+</body>
+
+</html>

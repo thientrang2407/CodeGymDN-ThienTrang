@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset=" UTF - 8">
+    <title> Bài Tập Chuyển Đổi Nhiệt Độ</title>
+</head>
+
+<body><br>
+    <h2>Temperature Converter</h2> </br>
+    <p><br>
+        <label>Fahrenheit</label></br>
+        <br>
+        <input id="inputFahrenheit" type="number" placeholder="Fahrenheit" oninput="tempConverter(this.value)"
+            outchange="tempConverter(this.value)"></br>
+    </p>
+    <p>Celsius: <span id="outputCelsius"></span></p>
+    <p>Kelvin: <span id="outputKelvin"></span></p>
+    <script>
+        function tempConverter(valNum) {
+            valNum = parseFloat(valNum);
+            document.getElementById("outputCelsius").innerHTML = (valNum - 32) / 1.8
+            document.getElementById("outputKelvin").innerHTML = ((valNum - 32) / 1.8) + 273.15
+        }
+        
+    </script>
+
+</body>
+
+</html>
