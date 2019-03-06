@@ -1,0 +1,1077 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e8c28f2a-8d4f-45de-931c-6514b761d21a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-example.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/META-INF/java-example.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/animal/Animal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/animal/AnimalTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/animal/Chicken.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/animal/Tiger.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/dataStructure/MyLinkedList$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/dataStructure/MyLinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/dataStructure/MyList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/dataStructure/MyListTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/dataStructure/TestMyLinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/edible/Edible.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/ja/intro/AddTheElementInArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/ja/intro/CalculateDaysInMonth.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/ja/intro/ChangeNumberIntoWord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/ja/intro/ConvertTemperature.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/ja/intro/CountThePassedStudent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/ja/intro/FindMaximumIndex.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/ja/intro/FindTheMinimumNumberInMethod.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/ja/intro/FindValueInArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/ja/intro/Greetings.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/ja/intro/InputInf.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/ja/intro/LeapYear.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/ja/intro/LinearEquationResolver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/ja/intro/Matrix.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/ja/intro/PhuongThuc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/ja/intro/Prime.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/ja/intro/Rectangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/ja/intro/RectangleProgram.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/ja/intro/ReverseTheElement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/ja/intro/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/ja/intro/SystemTime.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/ja/intro/TestMax.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/ja/intro/TestVoidMethod.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/ja/intro/ToRang.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/ja/intro/WeightOfBody.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/ja/intro/avarageMarks.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/ja/intro/countNumber.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/ja/intro/drawShape.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/ja/intro/testNumber.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/kethua/A.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/kethua/B.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/kethua/Circle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/kethua/CircleComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/kethua/CircleComparatorTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/kethua/CircleTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/kethua/Cylinder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/kethua/CylinderTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/kethua/MovablePoint.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/kethua/MovablePointTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/kethua/Point2D.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/kethua/Point3D.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/kethua/Point3DTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/kethua/Rectangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/kethua/RectangleTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/kethua/Resizeable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/kethua/Shape.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/kethua/ShapeTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/kethua/SmallCircle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/kethua/SmallCircleTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/kethua/Square.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/kethua/SquareTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/kethua/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/oop/QuadraticEquation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-example/oop/StopWatch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/animal/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/animal/AnimalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/animal/Chicken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/animal/Tiger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructure/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructure/MyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructure/MyListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructure/MyMethodList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructure/TestMyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edible/Edible.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ja/intro/AddTheElementInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ja/intro/CalculateDaysInMonth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ja/intro/ChangeNumberIntoWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ja/intro/ConvertTemperature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ja/intro/CountThePassedStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ja/intro/FindMaximumIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ja/intro/FindTheMinimumNumberInMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ja/intro/FindValueInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ja/intro/Greetings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ja/intro/LeapYear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ja/intro/LinearEquationResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ja/intro/Matrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ja/intro/PhuongThuc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ja/intro/Prime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ja/intro/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ja/intro/RectangleProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ja/intro/ReverseTheElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ja/intro/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ja/intro/SystemTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ja/intro/TestMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ja/intro/TestVoidMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ja/intro/ToRang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ja/intro/WeightOfBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ja/intro/avarageMarks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ja/intro/countNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ja/intro/drawShape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ja/intro/testNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kethua/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kethua/CircleComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kethua/CircleComparatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kethua/CircleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kethua/Cylinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kethua/CylinderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kethua/MovablePoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kethua/MovablePointTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kethua/Point2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kethua/Point3D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kethua/Point3DTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kethua/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kethua/RectangleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kethua/Resizeable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kethua/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kethua/ShapeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kethua/SmallCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kethua/SmallCircleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kethua/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kethua/SquareTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kethua/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/QuadraticEquation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/StopWatch.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="java-example" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/dataStructure/MyList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dataStructure/MyMethodList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+              <folding>
+                <element signature="e#245#246#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Workspace\java-example\src\kethua</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/ja/intro/FindMaximumIndex.java" />
+        <option value="$PROJECT_DIR$/src/ja/intro/FindValueInArray.java" />
+        <option value="$PROJECT_DIR$/src/ja/intro/ReverseTheElement.java" />
+        <option value="$PROJECT_DIR$/src/ja/intro/FindTheMinimumNumberInMethod.java" />
+        <option value="$PROJECT_DIR$/src/ja/intro/AddTheElementInArray.java" />
+        <option value="$PROJECT_DIR$/src/ja/intro/Matrix.java" />
+        <option value="$PROJECT_DIR$/src/ja/intro/CountThePassedStudent.java" />
+        <option value="$PROJECT_DIR$/src/ja/intro/Rectangle.java" />
+        <option value="$PROJECT_DIR$/src/ja/intro/QuadraticEquation.java" />
+        <option value="$PROJECT_DIR$/src/ja/intro/StopWatch.java" />
+        <option value="$PROJECT_DIR$/src/oop/StopWatch.java" />
+        <option value="$PROJECT_DIR$/src/kethua/Test.java" />
+        <option value="$PROJECT_DIR$/src/kethua/Shape.java" />
+        <option value="$PROJECT_DIR$/src/kethua/ShapeTest.java" />
+        <option value="$PROJECT_DIR$/src/kethua/CircleTest.java" />
+        <option value="$PROJECT_DIR$/src/kethua/Circle.java" />
+        <option value="$PROJECT_DIR$/src/kethua/Rectangle.java" />
+        <option value="$PROJECT_DIR$/src/kethua/RectangleTest.java" />
+        <option value="$PROJECT_DIR$/src/kethua/Square.java" />
+        <option value="$PROJECT_DIR$/src/kethua/SquareTest.java" />
+        <option value="$PROJECT_DIR$/src/kethua/SmallCircleTest.java" />
+        <option value="$PROJECT_DIR$/src/kethua/SmallCircle.java" />
+        <option value="$PROJECT_DIR$/src/kethua/Cylinder.java" />
+        <option value="$PROJECT_DIR$/src/kethua/CylinderTest.java" />
+        <option value="$PROJECT_DIR$/src/kethua/Point3D.java" />
+        <option value="$PROJECT_DIR$/src/kethua/Point3DTest.java" />
+        <option value="$PROJECT_DIR$/src/kethua/Point2D.java" />
+        <option value="$PROJECT_DIR$/src/kethua/MovablePoint.java" />
+        <option value="$PROJECT_DIR$/src/kethua/MovablePointTest.java" />
+        <option value="$PROJECT_DIR$/src/kethua/Animal.java" />
+        <option value="$PROJECT_DIR$/src/kethua/Tiger.java" />
+        <option value="$PROJECT_DIR$/src/kethua/Chicken.java" />
+        <option value="$PROJECT_DIR$/src/edible/Edible.java" />
+        <option value="$PROJECT_DIR$/src/Animal/Edible.java" />
+        <option value="$PROJECT_DIR$/src/Animal/Tiger.java" />
+        <option value="$PROJECT_DIR$/src/Animal/Chicken.java" />
+        <option value="$PROJECT_DIR$/src/Animal/AnimalTest.java" />
+        <option value="$PROJECT_DIR$/src/Animal/Animal.java" />
+        <option value="$PROJECT_DIR$/src/animal/Animal.java" />
+        <option value="$PROJECT_DIR$/src/animal/Chicken.java" />
+        <option value="$PROJECT_DIR$/src/animal/Tiger.java" />
+        <option value="$PROJECT_DIR$/src/animal/AnimalTest.java" />
+        <option value="$PROJECT_DIR$/src/kethua/Comparator.java" />
+        <option value="$PROJECT_DIR$/src/kethua/CircleComparator.java" />
+        <option value="$PROJECT_DIR$/src/kethua/CircleComparatorTest.java" />
+        <option value="$PROJECT_DIR$/src/kethua/Resizeable.java" />
+        <option value="$PROJECT_DIR$/src/dataStructure/MyLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/dataStructure/TestMyLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/dataStructure/MyListTest.java" />
+        <option value="$PROJECT_DIR$/src/dataStructure/MyList.java" />
+        <option value="$PROJECT_DIR$/src/dataStructure/MyMethodList.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="width" value="660" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="java-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dataStructure" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551843309736" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.MyListTest">
+    <configuration name="AnimalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="animal.AnimalTest" />
+      <module name="java-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="animal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CircleComparatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kethua.CircleComparatorTest" />
+      <module name="java-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kethua.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovablePointTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kethua.MovablePointTest" />
+      <module name="java-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="animal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructure.MyListTest" />
+      <module name="java-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dataStructure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructure.TestMyLinkedList" />
+      <module name="java-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dataStructure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToRang" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ja.intro.ToRang" />
+      <module name="java-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ToRang" />
+      <item itemvalue="Application.MovablePointTest" />
+      <item itemvalue="Application.AnimalTest" />
+      <item itemvalue="Application.CircleComparatorTest" />
+      <item itemvalue="Application.TestMyLinkedList" />
+      <item itemvalue="Application.MyListTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MyListTest" />
+        <item itemvalue="Application.TestMyLinkedList" />
+        <item itemvalue="Application.CircleComparatorTest" />
+        <item itemvalue="Application.AnimalTest" />
+        <item itemvalue="Application.MovablePointTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e8c28f2a-8d4f-45de-931c-6514b761d21a" name="Default Changelist" comment="" />
+      <created>1550570115232</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550570115232</updated>
+      <workItem from="1550570121390" duration="269000" />
+      <workItem from="1550721692333" duration="5720000" />
+      <workItem from="1550731730448" duration="9080000" />
+      <workItem from="1550804911528" duration="5442000" />
+      <workItem from="1551064632655" duration="1501000" />
+      <workItem from="1551072710924" duration="15357000" />
+      <workItem from="1551155879810" duration="1082000" />
+      <workItem from="1551166631654" duration="719000" />
+      <workItem from="1551242144485" duration="3863000" />
+      <workItem from="1551250203417" duration="7407000" />
+      <workItem from="1551320248912" duration="1518000" />
+      <workItem from="1551336963585" duration="9282000" />
+      <workItem from="1551367423253" duration="4172000" />
+      <workItem from="1551404902866" duration="6212000" />
+      <workItem from="1551757247542" duration="1375000" />
+      <workItem from="1551789192504" duration="4079000" />
+      <workItem from="1551838019758" duration="5064000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="82142000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49829933" visible="true" weight="0.37140697" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.5017007" side_tool="true" weight="0.28971255" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4302721" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3605442" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3282313" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3282313" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.33333334" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ja/intro/LinearEquationResolver.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ja/intro/LinearEquationResolver.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ja/intro/LinearEquationResolver.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ja/intro/Greetings.java</url>
+          <line>6</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dataStructure/TestMyLinkedList.java</url>
+          <line>3</line>
+          <properties class="dataStructure.TestMyLinkedList" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/ja/intro/Greetings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ja/intro/LeapYear.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ja/intro/TestVoidMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ja/intro/FindMaximumIndex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="44" lean-forward="true" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ja/intro/ReverseTheElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ja/intro/AddTheElementInArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ja/intro/FindValueInArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ja/intro/FindTheMinimumNumberInMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ja/intro/PhuongThuc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+          <folding>
+            <element signature="e#64#65#0" expanded="true" />
+            <element signature="e#114#115#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-example.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ja/intro/Matrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="52" lean-forward="true" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+          <folding>
+            <element signature="method#getMaxValueOfMatrix#0;class#Matrix#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ja/intro/RectangleProgram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ja/intro/TestMax.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ja/intro/drawShape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-640">
+          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ja/intro/CountThePassedStudent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ja/intro/Rectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+          <folding>
+            <element signature="e#859#860#0" expanded="true" />
+            <element signature="e#908#909#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/oop/StopWatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#121#122#0" expanded="true" />
+            <element signature="e#159#160#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#939#940#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kethua/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/oop/QuadraticEquation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-399">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kethua/ShapeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kethua/CircleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kethua/SquareTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kethua/Square.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+          <folding>
+            <element signature="e#115#116#0" expanded="true" />
+            <element signature="e#147#148#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kethua/RectangleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kethua/Rectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-546">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#564#565#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+            <element signature="e#684#685#0" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
+            <element signature="e#750#751#0" expanded="true" />
+            <element signature="e#801#802#0" expanded="true" />
+            <element signature="e#832#833#0" expanded="true" />
+            <element signature="e#855#856#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kethua/Shape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-147">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kethua/Circle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding>
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kethua/SmallCircleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kethua/SmallCircle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+          <folding>
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kethua/CylinderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kethua/Point3DTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kethua/Cylinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kethua/MovablePointTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="55" lean-forward="true" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kethua/Point3D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+          <folding>
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kethua/MovablePoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="55" column="1" lean-forward="true" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
+          <folding>
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#588#589#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Animal/Edible.java" />
+    <entry file="file://$PROJECT_DIR$/src/animal/Tiger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+          <folding>
+            <element signature="e#129#130#0" expanded="true" />
+            <element signature="e#156#157#0" expanded="true" />
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/animal/Chicken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+          <folding>
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kethua/Point2D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kethua/CircleComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/animal/Animal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edible/Edible.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kethua/Resizeable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/animal/AnimalTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kethua/CircleComparatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dataStructure/TestMyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dataStructure/MyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1155">
+          <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+          <folding>
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dataStructure/MyListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dataStructure/MyMethodList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding>
+            <element signature="e#245#246#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dataStructure/MyList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>java-example</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
