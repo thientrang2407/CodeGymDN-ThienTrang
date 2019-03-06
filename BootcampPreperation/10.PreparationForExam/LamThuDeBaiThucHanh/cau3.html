@@ -1,0 +1,25 @@
+<script>
+    // Viết hàm isPrime() nhận vào một số nguyên.
+    // Trả về true nếu số đó là số nguyên tố.
+    // Trả về false nếu số đó không phải là số nguyên tố.
+
+    var number = parseInt(prompt("Input number"));
+
+    function isPrime(number) {
+        var result = true;
+        if (number > 1) {
+            for (var i = 2; i < number - 1; i++) {
+                if (number % i == 0) {
+                    result = false;
+                    break;
+                }
+            }
+        } else {
+            result = false;
+        }
+        return result;
+    }
+
+    console.log(isPrime(number));
+
+</script>

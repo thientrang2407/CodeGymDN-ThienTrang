@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf - 8">
+    <title>Javascript to find the minimum score in the array</title>
+</head>
+
+<body>
+    <script>
+        var scoreList = [3, 5, 6, 7, 9, 0, 2, 4, 5];
+        //var result = findMinScore(scoreList);
+        //alert(result);
+        document.write(findMinScore(scoreList))
+        function findMinScore(scoreList) {
+            var min = scoreList[0]
+            for (var i = 1; i < scoreList.length; i++) {
+                if (min > scoreList[i]){
+                    min = scoreList[i];
+                } 
+            }
+            return min; 
+        }
+        
+
+    </script>
+</body>
+
+</html>

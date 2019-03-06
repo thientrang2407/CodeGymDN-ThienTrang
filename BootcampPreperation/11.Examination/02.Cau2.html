@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf - 8">
+    <title>Javascript to remove a number from array</title>
+</head>
+
+<body>
+    <script>
+        var index = parseInt(prompt("Enter a number"));
+        var array = [0, 1, 2, 3, 4, 5];
+        document.write(tryRemoveFromArray(index, array));
+
+        function tryRemoveFromArray(index, array) {
+            if (index >= 0 && index < array.length) {
+                for (var i = index; i < array.length; i++) {
+                    array[i] = array[i + 1];
+                }
+                array.pop();
+            }
+            return array;
+        }
+
+    </script>
+
+</html>

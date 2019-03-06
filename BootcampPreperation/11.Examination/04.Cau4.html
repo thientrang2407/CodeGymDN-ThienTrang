@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf - 8">
+    <title>Javascript to draw a circle</title>
+</head>
+
+<body>
+    <canvas id="myCanvas" width="700px" height="500px" style="border:3px solid #17df21"></canvas>
+    <script>
+        function Circle(x, y, radius, color) {
+            this.x = x;
+            this.y = y;
+            this.radius = radius;
+            this.color = color;
+
+            this.render = function (canvas) {
+                canvas.fillStyle = this.color;
+                canvas.beginPath();
+                canvas.arc(this.x, this.y, this.radius, 0, 2 * Math.PI);
+                canvas.fill();
+            }
+        }
+
+        var canvas = document.getElementById("myCanvas").getContext("2d");
+        var circle = new Circle(10, 10, 50, "#000000");
+        circle.render(canvas);
+
+    </script>
+</body>
+
+</html>

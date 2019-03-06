@@ -1,0 +1,15 @@
+<script>
+    // Viết Hàm tryRemoveFromArray() nhận vào một mảng và một số nguyên index
+    // Trả về mảng ban đầu đã được loại bỏ phần tử tại vị trí index nếu như index hợp lệ
+    // Nếu index không hợp lệ, trả về mảng ban đầu.
+
+    var index = parseInt(prompt("Input number"));
+    var array = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+    function tryRemoveFromArray(index, array) {
+        array.splice(index, 1);
+        return array;
+    }
+
+    console.log(tryRemoveFromArray(index, array));
+</script>

@@ -1,0 +1,28 @@
+<script>
+    var arr = [1,2,3,4,5,6,7,8,9,0];
+    console.log(findMinIndex(arr));
+    function findMinIndex(arr) {
+        var index = 0;
+        var min = arr[0];
+        for (var i = 0; i < arr.length; i++) {
+            if (min > arr[i]) {
+                min = arr[i];
+                index = i;
+            }
+        }
+        return index;
+    }
+
+    function findMaxIndex(arr) {
+        var maxIndex = 0;
+        var max = arr[0];
+        for ( var i = 1; i < arr.length; i++) {
+            if (max < arr[i]) {
+                max = arr[i];
+                maxIndex = i;
+            }
+        }
+        return maxIndex;
+    }
+    console.log(findMaxIndex(arr));
+</script>

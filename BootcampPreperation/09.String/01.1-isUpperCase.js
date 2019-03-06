@@ -1,6 +1,6 @@
 regexp = /^[A-Z]/;
 function isFirstLetterUpperCase (str) {
-    var regexp = /^[A-Z]/;
+    var    regexp = /^[A-Z]/;
     if (regexp.test(str)) {
         console.log("String's first character is uppercase");
     } else {

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lỳ Đẹp trai</title>
+</head>
+
+<body>
+    <script>
+        // bài 01:
+        var numbers = parseInt(prompt("Nhập số"));
+        var array = [1, 2, 3, 4, 5, 6, 7, 8];
+        function findIndex(arr, number) {
+            var index = -1;
+            for (var i = 0; i < arr.length; i++) {
+                if (arr[i] == number) {
+                    index = i;
+                }
+            }
+            return index;
+        }
+        console.log(findIndex(array, numbers));
+        // bài 02:
+        function checkNumber(array, number) {
+            var result = false;
+            for (var i = 0; i < array.length; i++) {
+                if (array[i] == number) {
+                    result = true;
+                }
+            }
+            return result;
+        }
+        console.log(checkNumber(array, numbers));
+        //bài 03:
+    </script>
+</body>
+
+</html>

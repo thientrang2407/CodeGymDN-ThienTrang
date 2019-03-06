@@ -1,0 +1,15 @@
+<script>
+    var numbers = parseInt(prompt("Nhập số để đếm số lần xuất hiện của số trong mảng"));
+    var arrayNumber = [1, 2, 3, 5, 6, 1];
+    console.log(checkCount(arrayNumber,numbers));
+    function checkCount(array, number) {
+        var count = 0;
+        for (var i = 0; i < array.length; i++) {
+            if (array[i] == number) {
+                count++;
+            }
+        }
+        return count;
+    }
+
+</script>
